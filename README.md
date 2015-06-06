@@ -1,6 +1,6 @@
 # mars-rovers
 Requisitos para ejecutar el programa:
-- S.O. Window
+- S.O. Windows
 - Servidor Apache 2.2
 - Lenguaje PHP 5.*
 
