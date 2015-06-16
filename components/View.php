@@ -18,7 +18,7 @@ class View {
     }
 
     /**
-     * Renderizara la vista
+     * Renderizara la vista a visualizar
      * @param type $name es el nombre de nuestra plantilla, por ej, listado.php
      * @param type $vars es el contenedor de nuestras variables, es un arreglo del tipo llave => valor, opcional.
      */
