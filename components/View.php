@@ -22,11 +22,11 @@ class View {
      * @param type $name es el nombre de nuestra plantilla, por ej, listado.php
      * @param type $vars es el contenedor de nuestras variables, es un arreglo del tipo llave => valor, opcional.
      */
-    public function show($name, $vars = array()) {
+    public function render($name, $vars = array()) {
         $config = Config::singleton();
 
         // armado de la ruta
-        $path = $config->get('views') . $name;
+        $path = $config->get('views') . $name.'.php';
 
         if (file_exists($path) == false) {
             trigger_error('Plantilla ' . $path . ' no existe. ', E_USER_NOTICE);

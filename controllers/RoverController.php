@@ -27,7 +27,7 @@ class RoverController extends ControllerBase {
         $rovers = $plateau->rovers;
         $vars['rovers'] = $rovers;
         
-        $this->view->show('rover/index.php', $vars);
+        $this->view->render('rover/index', $vars);
     }
     
 }
